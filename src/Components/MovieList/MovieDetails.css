@@ -1,0 +1,30 @@
+.movie_details_card {
+  width: 50%;
+  border: 1px solid #e3e3e3;
+  padding: 2rem;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px #e3e3e3;
+}
+.movie_details_tag {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0.5rem;
+}
+.font_bold {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 0.2rem;
+}
+.center {
+  text-align: center;
+}
+.movie_details_loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0%;
+  bottom: 0%;
+}
+.mr_btm {
+  margin-bottom: 0.5rem;
+}
