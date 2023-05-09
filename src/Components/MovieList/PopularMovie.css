@@ -1,0 +1,7 @@
+.popular_movie_main {
+  padding: 1rem;
+}
+.movie_details_no_data {
+  color: red;
+  text-align: center;
+}
