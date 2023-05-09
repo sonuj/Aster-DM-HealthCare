@@ -40,10 +40,6 @@ function TablePaginationActions(props) {
   };
 
   const handleLastPageButtonClick = (event) => {
-    console.log(
-      "last btn click",
-      Math.max(0, Math.ceil(count / rowsPerPage) - 1)
-    );
     onPageChange(event, Math.max(0, Math.ceil(count / rowsPerPage) - 1));
   };
 
@@ -124,7 +120,6 @@ const PopularMovie = () => {
   };
 
   const handleChangeRowsPerPage = (event) => {
-    console.log("inside");
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
   };
